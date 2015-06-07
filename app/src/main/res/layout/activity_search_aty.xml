@@ -1,0 +1,55 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.st.animsharedemo.SearchAty">
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:smoothScrollbar="true"
+        android:layout_height="match_parent" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp">
+
+        <ImageView
+            android:id="@+id/target"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_gravity="right|center_vertical"
+            android:src="@drawable/ic_launcher" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height">
+
+
+        <LinearLayout
+            android:id="@+id/head"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/header_height"
+            android:orientation="vertical"
+            android:gravity="bottom">
+
+            <TextView
+                android:id="@+id/search"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/min_header_height"
+                android:background="#ff0000"
+                android:text="search" />
+
+            <TextView
+                android:id="@+id/pinnedTitle"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/min_header_height"
+                android:background="#7f7f7f"
+                android:text="pinned title" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</FrameLayout>
