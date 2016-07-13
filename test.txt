@@ -1,1 +1,4 @@
 test
+
+try to modify .git/config test
+
