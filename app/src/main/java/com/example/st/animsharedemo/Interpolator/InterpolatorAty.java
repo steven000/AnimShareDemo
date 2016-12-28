@@ -29,7 +29,7 @@ public class InterpolatorAty extends Activity {
     private View mTarget;
 
     private DrawView mHistory;
-    private int during = 5000;
+    private int during = 1000;
     ObjectAnimator animator;
 
     @Override

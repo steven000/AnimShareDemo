@@ -113,17 +113,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SearchAty"
-            android:label="@string/title_activity_search_aty"
-            android:parentActivityName=".MainActivity"
-            android:theme="@style/AppTheme.Transparent" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="com.baidu.pd.anim" />
-            </intent-filter>
-        </activity>
-        <activity
             android:name=".transitions.RecyclerViewAnimators.animators.demo.MainActivity"
             android:label="@string/title_activity_recycler_aty"
             android:theme="@style/AppTheme.main2" >
@@ -159,8 +148,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".transitions.TransitionFadeAty"
-            android:label="@string/title_activity_transition_fade_aty" >
+            android:name=".rebound.ToggleButtonAty"
+            android:label="@string/title_activity_rebound_aty" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
